@@ -1,0 +1,50 @@
+#page{
+  border: 5px solid black; 
+  background-color: Floralwhite;
+}
+canvas{
+  background-color: white;
+  border: 1px solid Black;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.dimensions{
+  text-align: center;
+  width: 300px;
+  border: 3px black solid;
+  background-color: #BEBEBE;
+  padding: 3px;
+  margin-left: 48px;
+  margin-bottom: 10px;
+}
+
+h1{
+  padding-left:40px;
+  width: 370px;
+  color: Navy;
+  border-bottom: 4px solid red;
+}
+
+.text-box{
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  color: red; 
+}
+
+.controls{
+  margin-left:5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: PapayaWhip;
+  border-radius: 5px;
+}
+
+b{
+  font-size: 16px;
+  margin-left:30px;
+}

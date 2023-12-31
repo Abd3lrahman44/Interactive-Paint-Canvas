@@ -1,0 +1,20 @@
+<body id = page>
+<h1>
+  Paint your own Picture!
+</h1>
+<div class = "dimensions">
+Width<input type = text onchange = setWidth(this.value) class = text-box>
+Height<input type = text onchange = setHeight(this.value) class = text-box>
+</div>
+<canvas id = canvas1 onmousedown = startPaint() onmousemove = doPaint(event.offsetX,event.offsetY) onmouseup = endPaint()>  
+</canvas>
+<div>
+  <b>Color</b> <input type = color value = #000000 onchange = changeColor(this.value) class = controls >
+  
+  <b>Size</b> <input type = range min = 1 max = 50 value = 1 oninput = changeBrushSize(this.value)
+              class = controls>
+  <output id = outputValue>1</output>
+   
+  <b>Clear</b> <input type = button value = "Clear" onclick = clearCanvas() class = controls>
+  </div>
+</body>
